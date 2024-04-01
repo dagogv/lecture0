@@ -1,0 +1,140 @@
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.center {
+    height: 800px;
+}
+.center, .formBtns {
+    display: flex;justify-content: center;align-items: center;
+}
+.header_main {
+    display: flex;flex-direction: row;align-items: end;justify-content:right;
+}
+.header_btn {
+    display: flex;flex-direction: column;align-items: end;
+}
+.title1 {
+    font-size: 20px;color: red;padding: 25px 0 0 25px;
+    
+}
+.title2 {
+    font-size: 16px;padding: 20px 0 0 25px;
+}
+.header_top {
+    border-bottom: 1px solid #d2d2d2;
+}
+
+
+/* advance search */
+/* body {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.center { */
+    /* float: left;
+    width: 80%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+    display: flex;justify-content: center;align-items: center;
+} */
+
+
+
+
+
+
+
+
+
+.search_box {
+    border-radius: 25px;border: 1px solid #bbb;margin: 20px;
+                font-size: 16px;height: 25px;padding: 10px 10px;width: 400px;
+}
+.formBtns input {
+    font-size: 14px;border-radius: 5px;padding: 10px; 
+    color: #202124; border: 0;margin: 10px;background-color: #f8f9fa;
+}
+.formBtns input:hover {
+    border: 1px solid #d2d2d2;
+}
+.srchBtns {
+    background-color: #3079ed;padding: 10px;border-radius: 5px;border: 0;
+    margin-right: 5px;height: 40px;font-size: 14px;text-decoration: none;
+}
+.srchBtns a {
+    color: white;text-decoration: none;
+}
+.srchBtns:hover {
+    background-color: #0b57d0;
+}
+
+
+
+/* adv search */
+.advFormBtns {
+    color: white;
+    font-weight: bold;
+    font-size: 10px;
+    background-color: #3079ed;
+    padding: 10px;
+    border: 0;
+    border-radius: 2px;
+
+}
+.advFormBtns:hover {
+    background-color: #0b57d0;
+}
+/* adv search */
+table {
+    width: 80%;font-size: 12px;padding-left: 25px;
+}
+tr {
+    height: 40px;
+}
+.cell_lbl {
+    width: 180px;
+}
+.cell_input {
+    padding-right: 5px;
+}
+.input_txt {
+    width: 100%;height: 25px;
+    border: 1px solid #d2d2d2;
+}
+
+
+
+
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    line-height: 50px;
+    width: 100%;
+    overflow: hidden;
+    border: 0;
+    background-color: #eee;
+    font-size: 14px;
+}
+footer p {
+    display: inline;padding: 0 20px;
+}
+.footer1 {
+    border-bottom: 1px solid #dadce0;width: 100%;
+}
+.footer2 {
+    display: inline;margin-right: 50px;color: #70757a;
+}.footer3 {
+    display: flex;justify-content: center;flex-wrap: wrap;
+}
+
+
+
+
